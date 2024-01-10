@@ -43,10 +43,10 @@ repeat-expression:
 ### Examples
 
 ```
-let mut a: [i32; 3] = [3; 3]; // repeat expression
-let b: [String; 2] = [String::from("hi"), String::from("bye")];
-let c: [[i32; 2]; 3] = [[1, 2], [3, 4], [5, 6]];
-let e: [u64; 0] = [];
+let mut _spec_a: [i32; 3] = [3; 3]; // repeat expression
+let _spec_b: [String; 2] = [String::from("hi"), String::from("bye")];
+let _spec_c: [[i32; 2]; 3] = [[1, 2], [3, 4], [5, 6]];
+let _spec_d: [u64; 0] = [];
 ```
 
 
@@ -79,15 +79,15 @@ repeat-expression:
 #### List
 
 ```
-let a: [i32; 2] = [3, 3];
-let b: [String; 2] = [String::from("hi"), String::from("bye")];
+let _cre_a: [i32; 2] = [3, 3];
+let _cre_b: [String; 2] = [String::from("hi"), String::from("bye")];
 ```
 
 #### Repeat Expression
 
 ```
-let a = [0; 3];
-let b = [String::from("repeat"), 10];
+let _cre_c = [0; 3];
+let _cre_d = ["repeat"; 10];
 ```
 
 ## Array Access
@@ -129,9 +129,9 @@ array-index:
 ### Examples
 
 ```
-let mut int_array: [i32; 3] = [1, 2, 4];
-int_array[2] = 3;
+let mut upd_a: [i32; 3] = [1, 2, 4];
+upd_a[2] = 3;
 
-let mut arr_array: [[i32; 2]; 3] = [[1, 2], [3, 4], [5, 6]];
-arr_array[0] = [0, 0];
+let mut upd_b: [[i32; 2]; 3] = [[1, 2], [3, 4], [5, 6]];
+upd_b[0] = [0, 0];
 ```
