@@ -96,7 +96,7 @@ let _cre_d = ["repeat"; 10];
 
 Arrays are accessed by index, with the first element of the array having an index of 0. Thus, the range of indices for an array in Rust is `0..(array-size - 1)`. 
 
-Any attempt to access an array out side the bounds of its size will result in an `index out of bounds` compiler error.
+Using an index `i` of type `usize` and value `i > (array-size - 1)` will result in an `index out of bounds` compilation error.
 
 ```
 array-access-expression:
