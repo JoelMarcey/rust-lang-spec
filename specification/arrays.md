@@ -2,7 +2,7 @@ An array is a numbered, fixed-size sequence of elements of a single [type](link 
 
 The size of an array must evaluate to a non-negative constant expression represented by at value of type `usize`.
 
-Arrays are stored in contiguous memory.
+Array elements are stored contiguously in memory.
 
 Arrays can be mutable, insofar as their elements can change, but the size and type are always immutable.
 
