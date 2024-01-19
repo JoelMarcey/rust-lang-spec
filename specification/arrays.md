@@ -1,6 +1,6 @@
 An array is a numbered, fixed-size sequence of elements of a single [type](link to type spec), called the element type. The element type of an array can be any Rust [type](link to type spec). 
 
-The size of an array must evaluate to a non-negative constant expression represented by at value of type `usize`.
+The size of an array must evaluate to a non-negative constant expression represented by a value of type `usize`.
 
 Array elements are stored contiguously in memory.
 
