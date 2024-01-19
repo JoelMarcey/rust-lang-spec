@@ -110,7 +110,7 @@ array-index:
 
 ## Array Updates
 
-If the array is mutable, as defined by the `mut` keyword, the array elements can be updated. The size and type of the array can never change.
+If the array is declared mutable by using the `mut` keyword, the array elements can be updated. Again, the size and type of the array are immutable.
 
 Updating the value of an array element is performed by specifying the index of the element to be changed and setting it to the new value.
 
