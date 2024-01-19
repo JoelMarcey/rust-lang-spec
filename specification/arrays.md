@@ -52,7 +52,9 @@ let _spec_d: [u64; 0] = [];
 
 ## Array Creation
 
-There are two ways to create an array, either via a list of specific elements of the same type or a repeat expression of the same type.
+There are two ways to initialize an array at the time of its declaration:
+1. a list of specific elements whose type matches the element type of the array being declared; or
+2. a repeat expression whose expression has the same type as the element type of the array being declared.
 
 ```
 array-initializer:
