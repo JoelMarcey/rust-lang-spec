@@ -4,7 +4,7 @@ The size of an array must evaluate to a non-negative constant expression represe
 
 Array elements are stored contiguously in memory.
 
-Arrays can be mutable, insofar as their elements can change, but the size and type are always immutable.
+The size and type of an array are immutable; the elements of an array are immutable, too, unless the array is declared mutable.
 
 ## Array Type Specification
 
